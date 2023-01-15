@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(-100deg, #B5EAEA, #007d90);
+    font-family: "Ubuntu";
+}
+
+.header {
+    padding: 20px;
+    text-align: right;
+    background: #11725f;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+li::first-letter {
+    font-size: 50px;
+}
+
+ul.no-bullet{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    font-size: 30px;
+    color: #13005A;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.list-text {
+    display: inline;
+    font-size: 0.6em;
+}
+
+.shadow-button {
+    align-self: center;
+    font-family: "Ubuntu";
+    margin: auto;
+    width: 30%;
+    background-color: #1abc9c;
+    display: inline;
+}
+
+button.shadow-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}

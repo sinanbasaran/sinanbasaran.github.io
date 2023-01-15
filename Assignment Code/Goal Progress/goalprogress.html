@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <style>
+        html {font-family: Ubuntu, sans-serif;}
+        body {background: 
+            linear-gradient(90deg, #d9ebf2, #065979);}
+        h1 {color: #145671; background: 
+            linear-gradient(-12deg, #4c8325, #b2d732);
+            font-size: 44px; padding: 10px;
+            margin-bottom: 64px; margin-top: 48px;}
+        h2 {color: #092834; font-size: 28px; background: 
+            linear-gradient(-10deg, #4c8325, #b2d732);
+            padding: 16px; padding-left: 32px;}
+    </style>
+    <title>Set up your progress! - GoalR</title>
+</head>
+<body>
+    <h1>
+        <center>Set up your goal's progress</center>
+    </h1>
+    <h2>
+        I need to: <br>
+        <select id="progress" 
+        style="font-size: 20px; margin-left: 24px;">
+            <option value="null">
+                Choose an option
+            </option>
+            <option value="boolean">
+                Do it once
+            </option>
+            <option value="counter">
+                Do it this many times
+            </option>
+            <option value="money">
+                Save this much money
+            </option>
+        </select> <br>
+
+        <!--
+            didn't set up the disappearing here 
+            since it's functional
+        -->
+        What amount of progress?<br>
+        <input type="number" id="progress" 
+        style="font-size: 20px; margin-left: 24px;"> <br>
+
+        <center>
+            <input type="submit" value="Start progressing" 
+        id="progress" style="font-size: 24px; 
+        margin-top: 16px; margin-right: 10px; padding: 12px; 
+        background-color: #347b98; color: #ffffff; 
+        border-color: #092834;"
+        onclick="window.location.href='../Display Goals/display-goals.html'"
+        > 
+    <!--
+        Connect hyperlink
+        onclick="window.location.href='./viewgoals'"
+    -->
+        </center>
+    </h2>
+</body>
+
+</html>
